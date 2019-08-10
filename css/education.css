@@ -1,0 +1,297 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body a {
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+
+/*顶部*/
+
+.topBar {
+	letter-spacing: 3px;
+	line-height: 30px;
+	padding: 0 12px;
+	background-color: #FFF;
+	overflow: hidden;
+}
+
+marquee {
+	display: inline-block;
+	width: 800px;
+	float: right;
+}
+
+.education {
+	min-height: 400px;
+}
+
+.bannerEdu {
+	background: url(../img/eduImg.jpg) no-repeat center;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-ms-background-size: cover;
+	min-height: 300px;
+	padding: 5.5em 0 0;
+	min-width: 1200px;
+}
+
+.bannerEdu {
+	margin: 16px 0;
+	min-width: 1200px;
+}
+
+.bannerEdu h3 {
+	font-size: 2.5em;
+	letter-spacing: 5px;
+	color: #fff;
+	text-align: center;
+	line-height: 1.5em;
+	text-transform: capitalize;
+}
+
+
+/*小标题*/
+
+.wthree_head {
+	margin: 16px;
+	text-align: center;
+	position: relative;
+}
+
+.wthree_head span {
+	display: block;
+	font-size: 24px;
+	padding: .5em 0;
+	border-top: 2px solid #ff0101;
+	border-bottom: 2px solid #ff0101;
+	width: 212px;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	margin: 0 auto;
+}
+
+.wthree_head i {
+	position: absolute;
+	display: inline-block;
+	top: -16px;
+	left: 0px;
+	font-size: 42px;
+	font-weight: 600;
+	transform: rotate(12deg);
+}
+
+.University {
+	margin: 24px auto;
+	padding: 24px 0;
+	overflow: hidden;
+	min-width: 1200px;
+	background-color: #EFEFEF;
+}
+
+
+/*大学列表*/
+
+.UniversityList {
+	width: 360px;
+	float: left;
+	margin: 12px 20px;
+}
+
+.introduceImg {
+	overflow: hidden;
+	width: 100%;
+	padding: 12px;
+	margin-top: 12px;
+	position: relative;
+	background-color: #FFF;
+}
+
+
+/*图片上文字*/
+
+.introduceWord {
+	position: absolute;
+	top: 12px;
+	left: 12px;
+	bottom: 12px;
+	right: 12px;
+	color: #FFF;
+	padding: 12px;
+	cursor: pointer;
+	transform: scale(0);
+	transition: all .5s;
+	background-color: rgba(0, 0, 0, .7)
+}
+
+.introduceWord p {
+	margin: 12px 0;
+}
+
+.introduceWord span {
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.introduceWord a {
+	color: #fff;
+}
+
+.introduceWord small {
+	margin: 12px 0;
+	line-height: 24px;
+	position: absolute;
+	bottom: 12px;
+	padding: 6px;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 4;
+	overflow: hidden;
+}
+
+
+/*详情*/
+
+.introduceWord .itemDetails {
+	position: absolute;
+	bottom: 6px;
+	right: 8px;
+	font-size: 12px;
+}
+
+.introduceImg img {
+	width: 100%;
+	height: 224px;
+	transition: all .5s;
+}
+
+.UniversityList:hover .introduceWord {
+	transform: scale(1);
+}
+
+
+/*大学题目*/
+
+h3.title {
+	font-size: 32px;
+	text-align: center;
+	border-bottom: 4px double rgba(247, 197, 106, 0.35);
+	padding: 18px;
+	margin: 18px;
+}
+
+
+/*大学详情*/
+
+.inform {
+	min-width: 1200px;
+	background-color: #EFEFEF;
+}
+
+.inform>div {
+	margin: 48px 0;
+	min-width: 1200px;
+}
+
+.video {
+	width: 500px;
+	overflow: hidden;
+	display: inline-block;
+}
+
+.videoImg {
+	padding: 12px;
+	background-color: #FFF;
+}
+
+.videoImg img {
+	width: 100%;
+}
+
+.videoRight {
+	display: inline-block;
+	width: 640px;
+	padding: 18px;
+}
+
+.videoRight p {
+	text-indent: 2em;
+	margin: 12px 0;
+	line-height: 32px;
+}
+
+.wrapper {
+	background: url(../img/slider_3.jpg) no-repeat center 0px fixed;
+	-webkit-background-size: cover;
+	background-size: cover;
+	-moz-background-size: cover;
+	position: relative;
+	min-width: 1200px;
+	min-height: 400px;
+}
+
+.wrapperCover {
+	background-color: rgba(0, 0, 0, .7);
+	width: 100%;
+	padding: 32px 0;
+	min-width: 1200px;
+	min-height: 400px;
+}
+
+.wrapperCover p {
+	width: 1200px;
+	margin: 18px auto;
+	color: #FFF;
+	text-indent: 2em;
+	font-size: 28px;
+	line-height: 64px;
+}
+
+.jiaoDaUniversity {
+	background: url(../img/b5.jpg);
+	color: #FFF;
+	padding: 12px;
+}
+
+.shiYouUniversity {
+	background: url(../img/s2.jpg) no-repeat center 0px fixed;
+	-webkit-background-size: cover;
+	background-size: cover;
+	-moz-background-size: cover;
+	position: relative;
+	color: #FFF;
+	padding: 12px;
+}
+
+
+/*底部*/
+
+footer {
+	background-color: #2A2D2F;
+	padding: 12px;
+	text-align: center;
+}
+
+footer a {
+	font-size: 16px;
+	color: #FFF;
+	transition: all .2s;
+}
+
+footer a:hover {
+	color: #ee4f4f;
+	letter-spacing: 3px;
+}

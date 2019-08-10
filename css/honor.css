@@ -1,0 +1,100 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #EFEFEF;
+}
+p {
+	line-height: 32px;
+	text-indent: 2em;
+}
+
+.container {
+	width: 1200px!important;
+	margin: 24px auto;
+}
+
+.tm-container-2 {
+	color: #FFFFFF;
+	min-width: 1200px;
+}
+
+.tm-welcome-text {
+	margin-top: 65px;
+	margin-bottom: 65px;
+	color: #000000;
+	font-size: 48px;
+}
+
+.tm-timeline-item {
+	margin-left: 70px;
+}
+
+.tm-timeline-item-inner {
+	display: flex;
+	align-items: center;
+}
+
+.tm-img-timeline {
+	width: 160px;
+	height: 160px;
+	display: inline-block;
+	vertical-align: middle;
+	border-radius: 100%;
+}
+
+.tm-timeline-connector {
+	width: 55px;
+	height: 3px;
+	background-color: #404040;
+}
+
+.tm-timeline-connector-vertical {
+	height: 60px;
+	width: 3px;
+	background-color: #404040;
+	margin-left: 260px;
+}
+
+.tm-timeline-description {
+	display: inline-block;
+	vertical-align: middle;
+	border-radius: 20px;
+	padding: 35px 40px;
+	max-width: 712px;
+}
+
+
+/*块的颜色*/
+
+.tm-bg-dark {
+	background-color: #262626;
+}
+
+.tm-bg-dark-light {
+	background-color: #404040;
+}
+
+
+/*荣誉颜色*/
+
+.tm-text-green {
+	color: #99CC66;
+}
+
+.tm-text-cyan {
+	color: #33CCCC;
+}
+
+.tm-text-yellow {
+	color: #FFFF66;
+}
+
+.tm-text-orange {
+	color: #CC9966;
+}
+
+.float-right {
+	float: right!important;
+}

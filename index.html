@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<link rel="shortcut icon" type="img/x-icon" href="img/favicon.ico" />
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/index.css" />
+		<title>成都之三剑客</title>
+	</head>
+
+	<body>
+		<button class="medioButton" onclick="clickA(this)">播放/暂停</button>
+
+		<div class="head">
+			<!--音频-->
+			<div class="bascking">
+				<audio src="video/成都.mp3" type="audio/mpeg" width="10" height="10" id="audio"></audio>
+			</div>
+			<!--顶部-->
+			<div class="topBar">
+				<div class="contain">
+					<span id="showtime"></span>
+					<marquee direction="left">和我在成都的街头走一走 喔…&emsp;直到所有的灯都熄灭了也不停留&emsp;你会挽着我的衣袖&emsp;我会把手揣进裤兜&emsp;走到玉林路的尽头 &emsp;坐在小酒馆的门口</marquee>
+				</div>
+			</div>
+
+			<!--轮播图-->
+			<div class="containerTop">
+				<div class="container">
+					<div class="row clearfix">
+						<div class="col-md-12 column">
+							<div class="cd1">
+								<img src="img/cd1.png" width="213" height="97">
+							</div>
+							<div class="carousel slide" id="carousel-349841">
+								<!--小圆圈-->
+								<ol class="carousel-indicators">
+									<li class="active" data-slide-to="0" data-target="#carousel-349841">
+									</li>
+									<li data-slide-to="1" data-target="#carousel-349841">
+									</li>
+									<li data-slide-to="2" data-target="#carousel-349841">
+									</li>
+									<li data-slide-to="3" data-target="#carousel-349841">
+									</li>
+								</ol>
+								<div class="carousel-inner">
+									<div class="item active">
+										<img alt="" src="img/item1.png" />
+										<div class="carousel-caption">
+											<h4>
+				                        	<a href="/chengdu/rscd/2017-04/24/content_e6215574d3c148baab22e71f0d3e539c.shtml" target="_blank"  >杜甫草堂</a>
+				                        </h4>
+											<p>
+												成都杜甫草堂博物馆位于四川省成都市青羊区青华路37号，是中国唐代大诗人杜甫流寓成都时的故居。杜甫先后在此居住近四年，创作诗歌240余首。唐末诗人韦庄寻得草堂遗址，重结茅屋，使之得以保存，宋元明清历代都有修葺扩建。
+											</p>
+										</div>
+									</div>
+									<div class="item">
+										<img alt="" src="img/item2.png" />
+										<div class="carousel-caption">
+											<h4><a href="/chengdu/rscd/2017-05/22/content_e7071f75652f419f9712fbfdc8aa8648.shtml" target="_blank"  >熊猫基地</a></h4>
+											<p>成都大熊猫繁育研究基地，是中国政府实施大熊猫等濒危野生动物迁地保护工程的主要研究基地之一，是我国乃至全球知名的集大熊猫科研繁育、保护教育、教育旅游、熊猫文化建设为一体的大熊猫等珍稀濒危野生动物保护研究机构。</p>
+										</div>
+									</div>
+									<div class="item">
+										<img alt="" src="img/item3.png" />
+										<div class="carousel-caption">
+											<h4><a href="/chengdu/rscd/2017-05/22/content_a4ceb01800fe44bf87c89da12930af59.shtml" target="_blank"  >九眼桥</a></h4>
+											<p>九眼桥位于成都市锦江区，古名宏济桥，又名镇江桥，始建于明万历二十一年（1593），由当时布政使余一龙所建。系石栏杆、石桥面的大拱桥，长4宽3高3丈，下有9洞。在清朝乾隆五十三年（1788）由总督李世杰 补修时，改名为九眼桥。乾隆五十五年（1790）又加以重修。</p>
+										</div>
+									</div>
+									<div class="item">
+										<img alt="" src="img/item.jpg" />
+										<div class="carousel-caption">
+											<h4><a href="/chengdu/rscd/2017-04/24/content_e6215574d3c148baab22e71f0d3e539c.shtml" target="_blank"  >锦里</a></h4>
+											<p>传说中锦里曾是西蜀历史上最古老、最具有商业气息的街道之一，早在秦汉、三国时期便闻名全国。现在，锦里占地30000余平方米，建筑面积14000余平方米，街道全长550米，以明末清初川西民居作外衣，三国文化与成都民俗作内涵，集旅游购物、休闲娱乐为一体。</p>
+										</div>
+									</div>
+								</div>
+								<!--左右箭头-->
+								<a class="left carousel-control" href="#carousel-349841" data-slide="prev">
+									<span class=""></span>
+								</a>
+								<a class="right carousel-control" href="#carousel-349841" data-slide="next">
+									<span class=""></span>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--导航栏-->
+			<nav>
+				<ul>
+					<li>
+						<a href="index.html" target="_blank">首页</a>
+						<div class="line2" </div>
+					</li>
+					<li>
+						<a href="view.html" target="_blank">风景名胜</a>
+						<div class="line2" </div>
+					</li>
+					<li class="navList">
+						<a href="history.html" target="_blank">历史文化</a>
+						<div class="line2"></div>
+					</li>
+					<li>
+						<a href="food.html" target="_blank">名优特产</a>
+						<div class="line2" </div>
+					</li>
+					<li>
+						<a href="FamousFigure.html" target="_blank">著名人物</a>
+						<div class="line2" </div>
+					</li>
+					<li>
+						<a href="CityHonor.html" target="_blank">城市荣誉</a>
+						<div class="line2" </div>
+					</li>
+					<li>
+						<a href="higherEducation.html" target="_blank">高等学府</a>
+						<div class="line2" </div>
+					</li>
+					<li>
+						<a href="aboutUs.html" target="_blank">关于我们</a>
+						<div class="line2" </div>
+					</li>
+				</ul>
+			</nav>
+
+			</div>
+			<!--地图-->
+			<div class="map contain">
+				<!--百度地图容器-->
+				<script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
+				<div id="dituContent"></div>
+				<div class="chengDuIntroduce">
+					<div class="team-instro">
+						<div class="team-ch">成都概况<i>Chengdu Survey</i></div>
+					</div>
+					<div class="chengDuSurvey">
+						<p>
+							成都(Chéngdū)，位于中国四川省中部，是四川省省会，中国副省级城市之一，是国务院确定的中国西南地区的科技中心、商贸中心、金融中心和交通、通讯枢纽；也是四川省政治、经济、文教中心。是国家经济与社会发展计划单列市，国家历史文化名城。成都古为蜀国地，秦并巴、蜀为蜀郡并建城，汉因织锦业发达专设锦官管理，故有“锦官城”之称，五代蜀时遍种芙蓉，故别称“芙蓉城”，简称“蓉”，1921年设市。
+						</p>
+						<a href="location.html" class="blog-more-agile">Read More</a>
+					</div>
+				</div>
+			</div>
+
+			<!-- 著名人物 -->
+			<span class="title">&emsp;著名人物&emsp;</span>
+			<div class="person">
+				<div class="img_box">
+					<div class="img_inner">
+						<a href="FamousFigure.html" class="box-image__bg" style="background-image: url(img/bajin.jpg)">
+							<div class="box-image__info">
+								<h4 class="box-image__country">巴金</h4>
+								<p class="box-image__tour">作家、翻译家</p>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="img_box">
+					<div class="img_inner">
+						<a href="FamousFigure.html" class="box-image__bg" style="background-image: url(img/liyifeng.jpg)">
+							<div class="box-image__info">
+								<h4 class="box-image__country">李易峰</h4>
+								<p class="box-image__tour">演员、歌手、制片人</p>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="img_box">
+					<div class="img_inner">
+						<a href="FamousFigure.html" class="box-image__bg" style="background-image: url(img/qiwei.jpg)">
+							<div class="box-image__info">
+								<h4 class="box-image__country">戚薇</h4>
+								<p class="box-image__tour">歌手、演员、主持人</p>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="img_box">
+					<div class="img_inner">
+						<a href="FamousFigure.html" class="box-image__bg" style="background-image: url(img/yuehong.jpg)">
+							<div class="box-image__info">
+								<h4 class="box-image__country">岳红</h4>
+								<p class="box-image__tour">演员</p>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="img_box">
+					<div class="img_inner">
+						<a href="FamousFigure.html" class="box-image__bg" style="background-image: url(img/zhangliangying.jpg)">
+							<div class="box-image__info">
+								<h4 class="box-image__country">张靓颖</h4>
+								<p class="box-image__tour">歌手</p>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="img_box">
+					<div class="img_inner">
+						<a href="FamousFigure.html" class="box-image__bg" style="background-image: url(img/liyuchun.jpg)">
+							<div class="box-image__info">
+								<h4 class="box-image__country">李宇春</h4>
+								<p class="box-image__tour">歌手、音乐创作人</p>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="img_box">
+					<div class="img_inner">
+						<a href="FamousFigure.html" class="box-image__bg" style="background-image: url(img/zhangjie.jpg)">
+							<div class="box-image__info">
+								<h4 class="box-image__country">张杰</h4>
+								<p class="box-image__tour">歌手</p>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="img_box">
+					<div class="img_inner">
+						<a href="FamousFigure.html" class="box-image__bg" style="background-image: url(img/yanghongying.jpg)">
+							<div class="box-image__info">
+								<h4 class="box-image__country">杨红樱</h4>
+								<p class="box-image__tour">儿童文学作家</p>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+			<!-- 城市荣誉 -->
+			<div class="city">
+				<div class="cityCover">
+					<div class="wenzi">
+						<div class="title title__style-03">
+							<h1 class="title__title_small">Welcome to the Kingdom of Heaven</h1>
+							<h1 class="title__title">欢迎来到“天府之国”</h1>
+							<p class="title__text">成都，一座拥有2300多年建城史的历史文化名城。作为长江文明重要组成的古蜀文明的发祥地</p>
+							<p class="title__text">成都自古就有“天府之国”的美誉。悠久的历史孕育出独一无二的天府文化，厚重的文化根脉形成了成都人“新雅乐善”的精神特质。</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<span class="title">&emsp;风景名胜&emsp;</span>
+			<div class="viewbox">
+				<div class="view">
+					<div class="viewLeft">
+						<h1 class="viewLeftTitle">都江堰</h1>
+						<small class="viewLeftTitleEn">Dujiang Weir</small>
+						<a href="javaScript:;"><img class="viewImg" src="img/viewImg1.jpg" alt=""></a>
+					</div>
+					<div class="viewRight">
+						<p>都江堰位于成都市都江堰市灌口镇，是中国建设于古代并使用至今的大型水利工程，被誉为“世界水利文化的鼻祖”，是全国著名的旅游胜地。都江堰水利工程是由秦国蜀郡太守李冰及其子率众于周赧王五十九年（前256年）左右修建的，是全世界年代最久、唯一留存、以无坝引水为特征的宏大水利工程，也是世界文化遗产。</p>
+						<a href="view.html" class="knowMore blog-more-agile">了解更多</a>
+					</div>
+				</div>
+				<div class="view">
+					<div class="viewLeft">
+						<h1 class="viewLeftTitle">杜甫草堂</h1>
+						<small class="viewLeftTitleEn">Du Fu Thatched Cottage</small>
+						<a href=""><img class="viewImg" src="img/viewImg2.jpg" alt=""></a>
+					</div>
+					<div class="viewRight">
+						<p>杜甫草堂是唐代诗人杜甫成都故宅旧址，位于成都市区。诗人杜甫于759年移居成都，历时3年9个月，在此作诗240余首，其名篇《茅屋为秋风所破歌》即居草堂之作。主要建筑有大廨、诗史堂、柴门、工部祠、少陵草堂等。草堂博物馆内珍藏各种历史资料3万余册，文物2000余件，是研究“诗圣”杜甫的珍贵资料。杜甫草堂为首批全国重点文物保护单位。</p>
+						<a href="view.html" class="knowMore blog-more-agile">了解更多</a>
+					</div>
+				</div>
+				<div class="view">
+					<div class="viewLeft">
+						<h1 class="viewLeftTitle">武侯祠</h1>
+						<small class="viewLeftTitleEn">Temple of Marquis</small>
+						<a href=""><img class="viewImg" src="img/viewImg3.jpg" alt=""></a>
+					</div>
+					<div class="viewRight">
+						<p>成都武侯祠位于四川省成都市南一环武侯祠大街，是中国唯一的君臣合祀祠庙，由刘备、诸葛亮蜀汉君臣合祀祠宇及惠陵组成。成都武侯祠为国务院公布的首批全国重点文物保护单位（1961年），也是首批国家一级博物馆，每年吸引上百万游客参观游览，享有三国圣地的美誉。</p>
+						<a href="view.html" class="knowMore blog-more-agile">了解更多</a>
+					</div>
+				</div>
+				<div class="view">
+					<div class="viewLeft">
+						<h1 class="viewLeftTitle">文殊院</h1>
+						<small class="viewLeftTitleEn">Wenshu Temple</small>
+						<a href=""><img class="viewImg" src="img/viewImg4.jpg" alt=""></a>
+					</div>
+					<div class="viewRight">
+						<p>文殊院位于成都市青羊区，文殊院始建于隋大业年间（605年——617年）。康熙三十六年（1697年）集资重建庙宇，改称文殊院。是国务院确定的全国佛教重点寺院之一，中国长江上下游四大禅林之首，四川省重点文物保护单位；是集禅林圣迹、园林古建、朝拜观光、宗教修学于一体的佛教圣地。</p>
+						<!--<a href="view.html" class="blog-more-agile">Read More</a>-->
+						<a href="view.html" class="knowMore blog-more-agile">了解更多</a>
+					</div>
+				</div>
+			</div>
+			<!--美食-->
+			<div class="food">
+				<span class="title">&emsp;成都美食&emsp;</span>
+				<a href="food.html">
+					<div id="demo">
+						<div id="indemo">
+							<div id="demo1">
+								<img src="img/food1.jpg" />
+								<img src="img/food2.jpg" />
+								<img src="img/food3.jpg" />
+								<img src="img/food4.jpg" />
+							</div>
+							<div id="demo2"></div>
+						</div>
+					</div>
+				</a>
+			</div>
+			<!--名优特产 -->
+			<div class="Famous_specialty_products contain" id="Famous_specialty_products">
+				<span class="title">&emsp;手工艺品&emsp;</span>
+				<div class="blog-grid-w3-agileits">
+					<div class="agileitsImg">
+						<img src="img/qiqi.jpg" />
+					</div>
+					<div class="agileitsWord">
+						<h5>漆器</h5>
+						<p>成都漆艺，工艺众多，做工细腻，生产耗时绵长，被誉为“雕镌知器，百伎千工”。其原料配方复杂，体现了中国古代在化学工艺方面的重要发明；修饰技法独特，以“雕嵌填彩，雕锡丝光，镶嵌描绘”等极富地域特色的独特技艺，以及“平绘描线，拉刀针刻，堆漆工艺”等稀有技法而自成流派，在漆器工艺中独树一帜，风格独具。</p>
+						<p>成都漆艺中的雕填工艺、锡片平托都具有造型大方雅致、工艺精致优美且又温润的特点。雕填工艺由于漆色如灰膏状，故在与晶莹清澈漆面的对比中，更显其内敛素雅的品质、温和静穆的色泽，给人以一种亲和感。锡片平托艺术品中，金属折光闪烁，变化奇妙，漆面含蓄包容，给人以大度而素雅的美感享受。</p>
+						<a href="lacquerArt.html" class="blog-more-agile">了解更多</a>
+					</div>
+				</div>
+				<div class="blog-grid-w3-agileits">
+					<div class="agileitsWord">
+						<h5>蜀绣</h5>
+						<p>
+							蜀绣，又称“川绣”，是以成都为中心的刺绣品总称。产于四川成都、绵阳等地。蜀绣与苏绣、湘绣、粤绣齐名，合称中国四大名绣。据文献记载，蜀国最早的君王蚕丛已经懂得养殖桑蚕。汉末三国时，蜀锦蜀绣就已经驰名天下，作为珍稀而昂贵的丝织品。唐代末期，南诏进攻成都，掠夺的对象除了金银、蜀绣，还大量劫掠蜀绣工匠，视之为奇珍异物。绣题材多为花鸟、走兽、山水、虫鱼、人物，除以古代名家画作如苏东坡的怪石丛条、郑板桥的竹石、陈老莲的人物等为粉本，又请当时名画家设计绣稿，由刺绣工艺师加工再创造的一幅佳作。
+						</p>
+						<a href="ShuEmbroidery.html" class="blog-more-agile">了解更多</a>
+					</div>
+					<div class="agileitsImg">
+						<img src="img/shuxiu.jpg" />
+					</div>
+				</div>
+				<div class="blog-grid-w3-agileits">
+					<div class="agileitsImg">
+						<img src="img/jinshu.jpg" />
+					</div>
+					<div class="agileitsWord">
+						<h5>蜀锦</h5>
+						<p>
+							蜀锦，成都所出产的锦类丝织品，起源于战国时期，已有2000余年的历史，蜀锦织造技艺是国家级非物质文化遗产之一。蜀锦因其历史悠久、工艺独特，有中国四大名锦之首的美誉。因为汉朝时成都蜀锦织造业便已经十分发达，朝廷在成都设有专管织锦的官员，因此成都被称为“锦官城”，简称“锦城”。
+						</p>
+						<p>蜀锦织品经纬比例恰当，图案清晰，色彩丰富，花型饱满，工艺精美。蜀锦分为经锦和纬锦两大类。以多重彩经起花的蜀锦为经锦，以多重彩纬起花的蜀锦为纬锦，其中经锦工艺是蜀锦独有的。 [1] </p>
+						<a href="ShuBrocade.html" class="blog-more-agile">了解更多</a>
+					</div>
+				</div>
+			</div>
+			<!-- //特产 -->
+
+			<!--底部-->
+			<footer>
+				<div class="contain">
+					<a href="">Copyright © 2019.Company name All rights reserved.</a>
+				</div>
+			</footer>
+
+			<!--返回顶部-->
+			<div class="toTop arrow bounce animated">
+				<img src="img/logo.png" title="点我返回顶部 啾的一下下~~~" />
+			</div>
+
+	</body>
+
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+	<script type="text/javascript">
+		//创建和初始化地图函数：
+		function initMap() {
+			createMap(); //创建地图
+			setMapEvent(); //设置地图事件
+			addMapControl(); //向地图添加控件
+		}
+		//创建地图函数：
+		function createMap() {
+			var map = new BMap.Map("dituContent"); //在百度地图容器中创建一个地图
+			var point = new BMap.Point(104.067923463, 30.6799428454); //定义一个中心点坐标
+			map.centerAndZoom(point, 13); //设定地图的中心点和坐标并将地图显示在地图容器中
+			window.map = map; //将map变量存储在全局
+		}
+		//地图事件设置函数：
+		function setMapEvent() {
+			map.enableDragging(); //启用地图拖拽事件，默认启用(可不写)
+			map.enableScrollWheelZoom(); //启用地图滚轮放大缩小
+			map.enableDoubleClickZoom(); //启用鼠标双击放大，默认启用(可不写)
+			map.enableKeyboard(); //启用键盘上下左右键移动地图
+		}
+		//地图控件添加函数：
+		function addMapControl() {
+			//向地图中添加缩放控件
+			var ctrl_nav = new BMap.NavigationControl({
+				anchor: BMAP_ANCHOR_TOP_LEFT,
+				type: BMAP_NAVIGATION_CONTROL_LARGE
+			});
+			map.addControl(ctrl_nav);
+			//向地图中添加缩略图控件
+			var ctrl_ove = new BMap.OverviewMapControl({
+				anchor: BMAP_ANCHOR_BOTTOM_RIGHT,
+				isOpen: 1
+			});
+			map.addControl(ctrl_ove);
+			//向地图中添加比例尺控件
+			var ctrl_sca = new BMap.ScaleControl({
+				anchor: BMAP_ANCHOR_BOTTOM_LEFT
+			});
+			map.addControl(ctrl_sca);
+		}
+		initMap(); //创建和初始化地图
+	</script>
+
+</html>

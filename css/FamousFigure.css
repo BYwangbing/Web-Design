@@ -1,0 +1,131 @@
+
+/* 明星介绍 */
+.star{
+    width: 1200px;
+    margin: 20px auto;
+    text-align: center;
+}
+.star_header>h1{
+    text-align: center;
+    font-size: 40px;
+    color: #000;
+    margin-bottom: 27px;
+    letter-spacing: 10px;
+}
+/* 小装饰 */
+.title-section .border-icon {
+    width: 20px;
+    height: 20px;
+    border: 3px solid #ee4f4f;
+    display: inline-block;
+    position: relative;
+}
+.title-section .border-icon:before, .title-section .border-icon:after {
+    width: 65px;
+    height: 2px;
+    position: absolute;
+    top: 6px;
+    background-color: #ee4f4f;
+    content: "";
+}
+.title-section .title-icon {
+    width: 6px;
+    height: 6px;
+    background-color: #ee4f4f;
+    display: inline-block;
+    position: absolute;
+    left: 4px;
+    top: 4px;
+}
+.title-section .border-icon:before {
+    left: 50%;
+    margin-left: -75px;
+}
+.title-section .border-icon:after {
+    right: 50%;
+    margin-right: -75px;
+}
+.introd{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 40px 10px;
+}
+figure{
+    width: 363px;
+    display: inline-block;
+    padding-bottom:10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    box-shadow: 0 0 0 1px #eee;
+    transition: all .3s ease-in-out;
+}
+figure:hover{
+    box-shadow: 0 0 0 3px #eee;
+}
+.img{
+    overflow: hidden;
+    width: 363px;
+    height: 350px;
+}
+.img>img{
+    background-size: cover;
+    background-position: center;
+}
+.font{
+    padding: 20px;
+    text-overflow: -o-ellipsis-lastline;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    line-height:37px;
+    text-indent: 2em;
+}
+/*最具代表人物*/
+.testimonials{
+	margin-bottom: 72px;
+}
+.bannerEdu {
+	background: url(../img/eduImg.jpg) no-repeat center;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-ms-background-size: cover;
+	padding: 32px 0;
+}
+
+.bannerEdu {
+	margin: 16px 0;
+	min-width: 1200px;
+	color: #FFF;
+}
+.bannerEdu h3 {
+    font-size: 2.5em;
+    letter-spacing: 5px;
+    color: #fff;
+    margin: 12px 0;
+    text-align: center;
+    line-height: 1.5em;
+}
+/*小标题*/
+
+.wthree_head {
+	margin: 16px;
+	text-align: center;
+	position: relative;
+}
+
+.wthree_head span {
+	display: block;
+	font-size: 24px;
+	padding: .5em 0;
+	border-top: 2px solid #ff0101;
+	border-bottom: 2px solid #ff0101;
+	width: 336px;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	margin: 0 auto;
+	word-spacing: 5px;
+}

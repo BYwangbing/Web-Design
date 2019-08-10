@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* 著名人物 */
+.person{
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.img_box{
+    width: 292px;
+    float: left;
+    margin: 4px;
+    padding: 15px;
+}
+.img_inner{
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.box-image__bg {
+    display: block;
+    padding-top: 100%;
+    background-size: cover; 
+    transform: scale(1.1);
+    transition: all .5s ease-in-out;
+}
+.box-image__bg:hover {
+    display: block;
+    padding-top: 100%;
+    background-size: cover; 
+    transform: scale(1);
+    transition: all .5s ease-in-out;
+}
+.box-image__bg:before {
+    content: "";
+    position: absolute;
+    top: -100px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, .6) 20%, black 100%);
+    opacity: .7;
+    transform: translateY(0);
+    transition: all .5s ease-in-out;
+}
+.img_inner:hover .box-image__bg:before {top: 260px;}
+.box-image__info {
+    position: absolute;
+    top: 55%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    margin: auto;
+    color: #fff;
+    transition: all .5s ease-in-out;
+}
+.img_inner:hover .box-image__info{transform: translateY(78%);}
+/* 城市荣誉 */
+.city{
+    width: 1200px;
+    margin: 0 auto;
+    height:400px;
+    background: url(../img/city3.jpg) no-repeat  fixed;
+    background-position: center top;
+    background-size: 1160px;
+    position: relative;
+}
+.city:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 20px;
+    width: 1160px;
+     margin: 0 auto;
+    height: 400px;
+    background: rgba(0, 0, 0, .3);
+    z-index: 1;
+}
+.wenzi{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    text-align: left;
+    color: #fff;
+    
+}

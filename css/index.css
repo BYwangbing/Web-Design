@@ -1,0 +1,702 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	min-width: 1200px;
+}
+
+a,
+a:hover {
+	text-decoration: none!important;
+}
+
+.contain {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.head {
+	min-width: 1200px;
+	background: url(../img/bg_person.jpg) no-repeat center fixed;
+}
+
+.head a {
+	color: #FFF;
+	width: 100%;
+	display: inline-block;
+}
+
+
+/*音频*/
+
+.bascking {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	opacity: 0;
+}
+
+.medioButton {
+    position: absolute;
+	top: 0;
+	color: #FFF;
+	outline: none;
+	border: none;
+	padding: 5px;
+	font-size: 12px;
+	background-color: #ee4f4f;
+	border-radius: 5px;
+	animation: topI infinite 1s;
+    animation-direction: alternate;
+}
+
+@keyframes topI {
+	from {
+		left: -60px;
+	}
+	to {
+		left: 12px;
+	}
+}
+/*顶部*/
+
+.topBar {
+	letter-spacing: 3px;
+	line-height: 30px;
+	padding: 0 12px;
+	background-color: #FFF;
+	overflow: hidden;
+}
+
+marquee {
+	display: inline-block;
+	width: 759px;
+	float: right;
+}
+
+
+/*导航栏*/
+
+nav {
+	background-color: rgba(0, 0, 0, .7);
+	text-align: center;
+	position: relative;
+}
+.ulist ul li{
+	list-style: none;
+	padding: 18px 0;
+}
+.ulist a{
+	color: #000!important;
+}
+nav>ul {
+	overflow: hidden;
+	margin: 0;
+}
+
+nav>ul>li {
+	padding: 0 18px;
+	margin: 12px;
+	transition: all .5s;
+	display: inline-block;
+	position: relative;
+	transition: 1s;
+}
+nav>ul>li:hover{
+	background-color: #ee4f4f;
+	-webkit-transform: scale(0.8);
+	-moz-transform: scale(0.8);
+    transform: scale(0.8);
+	-o-transform: scale(0.8);
+	-ms-transform: scale(0.8);
+}
+.line2 {
+	width: 0;
+	height: 6px;
+	background-color: #FFF;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	transition: 1s;
+}
+
+nav>ul>li:hover .line2 {
+	width: 100%;
+}
+nav>ul>li a {
+	font-size: 21px;
+	height: 48px;
+	line-height: 48px;
+}
+
+/*吸顶盒*/
+
+.topFixed {
+	position: fixed;
+	width: 100%;
+	min-width: 1200px;
+	top: 0;
+	z-index: 9999;
+	box-shadow: 2px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+/*轮播图*/
+
+.containerTop {
+	background-color: #FFF;
+	padding: 12px;
+	width: 1200px;
+	margin: 28px auto;
+	overflow: hidden;
+}
+
+.container {
+	width: 100%;
+	padding: 0!important;
+}
+
+.container img {
+	width: 100%;
+	height: 100%;
+}
+
+
+/*标题*/
+
+span.title {
+	font-size: 400px;
+	font-size: 40px;
+	display: block;
+	width: 670px;
+	margin: 50px auto;
+	letter-spacing: 5px;
+}
+
+span.title:before {
+	content: " ";
+	display: inline-block;
+	height: 0;
+	width: 200px;
+	border-top: 35px solid transparent;
+	border-right: 15px solid #ee4f4f;
+	border-bottom: 5px solid #ee4f4f;
+	border-left: 35px solid transparent;
+}
+
+span.title:after {
+	content: " ";
+	display: inline-block;
+	height: 0;
+	width: 200px;
+	border-top: 35px solid transparent;
+	border-left: 15px solid #ee4f4f;
+	border-bottom: 5px solid #ee4f4f;
+	border-right: 35px solid transparent;
+}
+
+
+/*成都图片*/
+
+.cd1 {
+	position: absolute;
+	z-index: 100;
+	top: 5%;
+	left: 13%;
+}
+
+
+/*文字说明*/
+
+.carousel-caption a {
+	font-size: 27px;
+	text-align: center;
+}
+
+.carousel-caption {
+	text-align: left;
+	width: 25%;
+	left: 10%;
+	bottom: 0px;
+	height: 100%;
+	line-height: 44px;
+	padding: 0px;
+	background: rgba(0, 0, 0, 0.7);
+	padding: 14% 1% 0 1%;
+}
+
+.carousel-caption p {
+	font-size: 14px;
+	line-height: 32px;
+	text-indent: 2em;
+}
+
+
+/*轮播图 小圆圈*/
+
+.containerTop ol {
+	text-align: right;
+}
+
+.carousel-indicators .active {
+	background-color: #d80000;
+}
+
+
+/*左右箭头*/
+
+.carousel-control.left,
+.carousel-control.right {
+	top: 42%;
+	width: 42px;
+	height: 67px;
+	background: url(../img/slideButn.png) no-repeat;
+	opacity: 1;
+}
+
+.carousel-control.right {
+	background-position: top right;
+}
+
+
+/*地图*/
+
+#dituContent {
+	width: 420px;
+	height: 360px;
+	display: inline-block;
+	border: #ccc solid 1px;
+}
+
+.iw_poi_title {
+	color: #CC5522;
+	font-size: 14px;
+	font-weight: bold;
+	overflow: hidden;
+	padding-right: 13px;
+	white-space: nowrap
+}
+
+.iw_poi_content {
+	font: 12px arial, sans-serif;
+	overflow: visible;
+	padding-top: 4px;
+	white-space: -moz-pre-wrap;
+	word-wrap: break-word
+}
+
+.map {
+	padding: 27px 0;
+}
+
+
+/*成都介绍*/
+
+.chengDuIntroduce {
+	display: inline-block;
+	vertical-align: top;
+	padding: 18px;
+	width: 720px;
+	position: relative;
+}
+
+.team-ch {
+	font-size: 25px;
+	font-weight: 600;
+	padding: 12px 12px 6px 30px;
+	line-height: 35px;
+}
+
+.team-ch i {
+	padding: 6px;
+	font-size: 24px;
+	font-family: "monotype corsiva";
+}
+
+.chengDuSurvey {
+	padding: 12px;
+}
+
+.chengDuSurvey p {
+	text-indent: 2em;
+	line-height: 32px;
+	color: #714609;
+	font-size: 18px;
+}
+
+
+/* 著名人物 */
+
+.person {
+	width: 1200px;
+	margin: 48px auto;
+	overflow: hidden;
+}
+
+.img_box {
+	width: 292px;
+	float: left;
+	margin: 4px;
+	padding: 15px;
+}
+
+.img_inner {
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+}
+
+.box-image__bg {
+	display: block;
+	padding-top: 100%;
+	background-size: cover;
+	transform: scale(1.1);
+	transition: all .5s ease-in-out;
+}
+
+.box-image__bg:hover {
+	display: block;
+	padding-top: 100%;
+	background-size: cover;
+	transform: scale(1);
+	transition: all .5s ease-in-out;
+}
+
+.box-image__bg:before {
+	content: "";
+	position: absolute;
+	top: -100px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, .6) 20%, black 100%);
+	opacity: .7;
+	transform: translateY(0);
+	transition: all .5s ease-in-out;
+}
+
+.img_inner:hover .box-image__bg:before {
+	top: 260px;
+}
+
+.box-image__info {
+	position: absolute;
+	top: 55%;
+	transform: translateY(-50%);
+	left: 0;
+	right: 0;
+	margin: auto;
+	color: #fff;
+	transition: all .5s ease-in-out;
+}
+
+.img_inner:hover .box-image__info {
+	transform: translateY(78%);
+}
+
+
+/* 城市荣誉 */
+
+.city {
+	height: 500px;
+	background: url(../img/city3.jpg) no-repeat center;
+	background-size: 100%;
+	position: relative;
+}
+
+.cityCover {
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, .7);
+	z-index: 1;
+}
+
+.wenzi {
+	position: absolute;
+	top: 20%;
+	left: 10%;
+	text-align: left;
+	color: #fff;
+}
+
+.title__title {
+	margin: 24px 0;
+}
+
+.title__text {
+	font-size: 16px;
+	margin: 16px 0;
+}
+
+
+/**名胜古迹**/
+
+.viewbox {
+	height: 700px;
+	width: 1200px;
+	margin: 24px auto;
+	overflow: hidden;
+}
+
+.view {
+	margin: 20px;
+	float: left;
+	width: 560px;
+	height: 320px;
+	overflow: hidden;
+	background: #000;
+	box-shadow: 5px 5px 3px #0000004a;
+}
+
+.viewLeft {
+	width: 320px;
+	height: 320px;
+	overflow: hidden;
+	display: inline-block;
+	position: relative;
+	color: #FFF;
+}
+
+.viewLeftTitle {
+	position: absolute;
+	top: 0;
+	z-index: 888;
+	padding: 20px;
+}
+
+.viewLeftTitleEn {
+	position: absolute;
+	top: 82px;
+	z-index: 888;
+	padding: 20px;
+}
+
+.viewImg {
+	transition: 1.2s;
+	background: #000;
+	opacity: 0.8;
+}
+
+.viewImg:hover {
+	transition: all .5s ease-in-out;
+	transform: scale(1.1);
+	opacity: 1;
+}
+
+.viewRight {
+	width: 240px;
+	height: 320px;
+	background: #fff;
+	float: right;
+	position: relative;
+}
+
+.viewRight p {
+	text-indent: 2em;
+	font-size: 15px;
+	padding: 15px;
+	color: #3c3b3b;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 6;
+	overflow: hidden;
+	line-height: 36px;
+	;
+}
+
+.knowMore {
+	background: #ee4f4f;
+	color: #FFF;
+	text-align: center;
+	border-radius: 10px;
+	padding: 8px 12px;
+	display: inline-block;
+	position: absolute;
+	right: 16px;
+	bottom: 25px;
+	margin-left: -50px;
+	font-size: 16px;
+}
+
+.knowMore:after {
+	content: ">";
+	position: relative;
+	animation: mymove 0.6s infinite;
+}
+
+@keyframes mymove {
+	from {
+		left: 0px;
+	}
+	to {
+		left: 5px;
+	}
+}
+
+
+/*美食特产*/
+
+#demo {
+	overflow: hidden;
+	width: 1200px;
+	height: 200px;
+	margin: 0 auto;
+	font-size: 0;
+}
+
+#indemo {
+	float: left;
+	width: 800%;
+}
+
+#demo1 {
+	float: left;
+}
+
+#demo2 {
+	float: left;
+}
+
+
+/*大块*/
+
+.blog-grid-w3-agileits {
+	overflow: hidden;
+	margin: 24px 6px;
+	padding: 6px;
+	background-color: #EFEFEF;
+}
+
+.agileitsImg {
+	display: inline-block;
+	width: 618px;
+	margin: 24px 0;
+	overflow: hidden;
+	padding: 12px;
+	vertical-align: top;
+	background-color: #FFF;
+}
+
+.agileitsImg img {
+	width: 100%;
+}
+
+.agileitsWord {
+	display: inline-block;
+	width: 540px;
+	margin-top: 2em;
+	padding: 2em 2em 2em;
+	text-align: left;
+}
+
+.agileitsWord h5 {
+	text-decoration: none;
+	font-size: 2em;
+	letter-spacing: 2px;
+	font-weight: 300;
+	text-transform: capitalize;
+	color: #168eea;
+	display: inline-block;
+	margin-bottom: .2em;
+}
+
+.agileitsWord p {
+	font-size: 16px;
+	color: #777;
+	line-height: 32px;
+	text-indent: 2em;
+	line-height: 1.8em;
+}
+
+.blog-more-agile {
+	border-radius: 5px;
+	float: right;
+	display: inline-block;
+	color: #fff;
+	border: 2px solid #ee4f4f;
+	background: #ee4f4f;
+	text-transform: capitalize;
+	margin-top: 2em;
+	font-size: 16px;
+	letter-spacing: 1.5px;
+	padding: 8px 20px;
+	transition: .5s ease-in;
+	-webkit-transition: .5s ease-in;
+	-moz-transition: .5s ease-in;
+	-o-transition: .5s ease-in;
+	-ms-transition: .5s ease-in;
+}
+.blog-more-agile:hover{
+	color: #FFF;
+	box-shadow: 2px 2px 7px #ee4f4f;
+}
+
+/*底部*/
+
+footer {
+	background-color: #2A2D2F;
+	padding: 12px;
+	text-align: center;
+}
+
+footer a {
+	font-size: 16px;
+	color: #FFF;
+	transition: all .2s;
+}
+
+footer a:hover {
+	color: #ee4f4f;
+	letter-spacing: 3px;
+}
+
+
+/*返回顶部*/
+
+.toTop {
+	position: fixed;
+	bottom: 18px;
+	right: 18px;
+	display: none;
+}
+
+.toTop img {
+	float: right;
+	width: 50%;
+	cursor: pointer;
+	position: relative;
+	animation: topImg 1s infinite;
+}
+
+@keyframes topImg {
+	from {
+		top: 0px;
+	}
+	to {
+		top: 5px;
+	}
+}
+
+
+/*Bootstrap 字体图标(Glyphicons)*/
+
+@font-face {
+	font-family: 'Glyphicons Halflings';
+	src: url('../fonts/glyphicons-halflings-regular.eot');
+	src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
+
+.glyphicon {
+	position: relative;
+	top: 1px;
+	display: inline-block;
+	font-family: 'Glyphicons Halflings';
+	-webkit-font-smoothing: antialiased;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1;
+	-moz-osx-font-smoothing: grayscale;
+}

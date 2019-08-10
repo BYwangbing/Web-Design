@@ -1,0 +1,33 @@
+body{
+	background-color: #EFEFEF;
+}
+.container{
+	padding: 50px 0;
+}
+.views{
+	overflow: hidden;
+	height: 300px;
+	padding: 30px;
+	line-height: 300px;
+}
+.views img{
+	width: 100%;
+    height: 100%;
+    border: #FFF 12px solid;
+}
+.view-details{
+	vertical-align: middle;
+	padding: 30px;
+}
+.view-details h2{
+	text-align: center;
+	padding-bottom: 5px;
+	border-bottom: 3px red dashed;
+	padding: 5px;
+}
+.view-details p{
+	text-indent: 2em;
+    font-size: 18px;
+    margin: 12px;
+    line-height: 32px;
+}

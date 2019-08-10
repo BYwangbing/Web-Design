@@ -1,0 +1,74 @@
+.about-us {
+	text-align: center;
+	width: 1200px;
+	margin: 0 auto;
+}
+.about-us .about-us-wrapping {
+	padding-top: 70px;
+	margin: 0 auto;
+}
+
+.about-us .about-us-wrapping .title {
+	position: relative;
+	text-align: left;
+}
+
+.about-us .about-us-wrapping .tit-ch {
+	font-size: 25px;
+	font-weight: 600;
+	font-family: "YouYuan";
+	border-bottom: 1px solid #808383;
+	padding-left: 30px;
+	line-height: 35px;
+}
+
+.about-us .about-us-wrapping .tit-en {
+	font-size: 14px;
+	padding-left: 10px;
+	color: #ee4f4f;
+}
+
+.about-us .about-us-wrapping .empyt {
+	border-right: 1px solid #808383;
+	position: absolute;
+	top: 0px;
+	height: 55px;
+	width: 155px;
+}
+
+.about-us .about-us-wrapping .spot {
+	width: 7px;
+	height: 7px;
+	background-color: #ee4f4f;
+	border-radius: 50%;
+	position: absolute;
+	top: 32px;
+	left: 152px;
+}
+
+.about-us .about-us-wrapping h1 {
+	font-weight: 400;
+	color: #233241;
+}
+
+.about-us .about-us-wrapping p {
+	color: #808383;
+	line-height: 35px;
+	font-size: 18px;
+	font-family: '寰蒋闆呴粦';
+	color: #000;
+	text-align: left;
+	margin-top: -60px;
+}
+
+.about-us .about-us-wrapping .yinhao {
+	font-family: fantasy;
+	font-size: 110px;
+	text-align: left;
+	color: #ee4f4f;
+}
+
+#houyinhao {
+	text-align: right;
+	margin-top: -40px;
+}
